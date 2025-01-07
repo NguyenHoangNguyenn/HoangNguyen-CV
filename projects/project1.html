@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automated Warehouse System</title>
+    <link rel="stylesheet" href="/assets/css/project1.css">
+</head>
+<body>
+    <header>
+        <a href="/index.html" class="back-link">← Back to Projects</a>
+        <h1>Automated Warehouse System</h1>
+    </header>
+
+    <section id="project-detail">
+        <div class="project-detail-container">
+            <h2>Project Overview</h2>
+            <p>The project focuses on building a system that simulates the process of sending and receiving goods, aiming to provide convenience and cost savings for both senders and receivers. The system is designed to optimize the delivery process in concentrated locations such as residential areas, dormitories, and apartments, helping to save public space and reduce clutter in crowded areas. This not only improves the efficiency of goods delivery but also enhances convenience for users.</p>
+            <p>The system stands out with a webserver feature, allowing users to easily access and manage orders remotely, anytime, anywhere. This feature is particularly suitable for people with busy schedules or those who are frequently away from home, providing them with flexibility in receiving goods without worrying about missing important notifications.</p>
+            <p>During the implementation, I developed a complete hardware model, including sensors and automatic controllers. Combined with PLC programming, the system operates flexibly between manual and automatic control modes, meeting technical requirements and ensuring high operational performance.</p>
+            <p>The system also uses a computer as the central server, supporting key functions such as control, monitoring, and data management. This makes the process of goods management simple and fast. Additionally, the system offers detailed reporting capabilities, supporting users and stakeholders in tracking and evaluating operational efficiency, allowing them to make accurate and timely decisions.</p>
+            <p>Overall, the project not only addresses current issues in goods delivery but also opens up opportunities for the development and integration of new features in the future. This contributes to enhancing the quality of logistics services, meeting the growing needs of users in densely populated areas, while positively contributing to the development of the logistics industry in the context of the modern economy.</p>
+
+            <h2>Technologies Used</h2>
+            <ul>
+                <li>Siemens S7-1200 PLC</li>
+                    <p style="font-size: 20px; color: #000000; line-height: 1.6;">The control software is designed to perform basic operational functions, supporting two main operating modes: automatic mode (Mode Auto) and manual control mode (Mode Manual). This is the central component, responsible for receiving commands, processing signals from peripheral devices through input and output channels, while also integrating information from the website to effectively coordinate and operate the system.</p>
+                <li>JavaScript (Front-end)</li>
+                    <p style="font-size: 20px; color: #000000; line-height: 1.6;">KepserverEx 6 is a data connectivity solution between PLCs, clients, and databases, serving as a communication gateway that integrates multiple devices and protocols into a single system. The software collects real-time data, supports remote monitoring and control, stores information, and generates reports. With the ability to provide simultaneous access for multiple clients, KepserverEx 6 ensures high performance, reliability, and stability, along with a user-friendly interface that makes system management easier.</p>
+                <li>SQL Database</li>
+                    <p style="font-size: 20px; color: #000000; line-height: 1.6;"></p>
+                <li>Kepware (OPC UA)</li>
+                    <p style="font-size: 20px; color: #000000; line-height: 1.6;">Node.js is a server-side JavaScript runtime environment, designed to build robust network applications with an asynchronous architecture and non-blocking I/O. Node.js efficiently handles multiple concurrent requests, making it ideal for real-time applications such as monitoring and control. In the PLC and KepserverEx integration system, Node.js acts as an intermediary server, collecting and processing data while connecting components. With its scalability and strong support, Node.js is the ideal solution for modern industrial web applications, optimizing speed and flexibility.</p>
+            </ul>
+
+            <h2>Simulation</h2>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="image-container">
+                                <img src="/assets/img/hand_Simu2.png" alt="Image 1">
+                            </div>
+                            <p>Robot Hand</p>
+                        </div>
+                        <div class="col">
+                            <div class="image-container">
+                                <img src="/assets/img/hand_Simu.png" alt="Image 2">
+                            </div>
+                            <p>Open Robot Hand</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="image-container image-container2">
+                                <img src="/assets/img/hand_Simu3.png" alt="Image 3">
+                            </div>
+                            <p>Warehouse</p>
+                        </div>
+                        <div class="col">
+                            <div class="image-container image-container2">
+                                <img src="/assets/img/hand_Simu4.png" alt="Image 4">
+                            </div>
+                            <p>Warehouse & Rack</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <video controls>
+                                <source src="/assets/img/simulationFinal.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <p>Simulation Warehouse Process</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            <h2>Results</h2>
+            <p>The system successfully reduced warehouse processing time by 30% and improved accuracy of inventory management through automated tracking and sorting.</p>
+            <img style="width: 800px; height: 600px;" src="/assets/img/project1.png" alt="">
+
+            
+        </div>
+
+            
+    </section>
+        
+    
+</body>
+</html>
